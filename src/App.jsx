@@ -153,18 +153,21 @@ export const App = () => {
           animate={{ opacity: 1 }}
         >
           <div className="modal-content text-black">
-            <div className="modal-grid grid grid-cols-2 items-center">
+          <h2 className="text-4xl pt-16 text-center font-bold">{pic.title}</h2>
+            <div className="modal-grid grid grid-cols-2 items-center flex">
               <div>
                 <img
-                  className="picture-modal p-8 mt-40"
+                  className="picture-modal p-8 mt-24"
                   src={pic.image}
                   alt="modal picture"
                 />
               </div>
               <div>
-                <h2>{pic.title}</h2>
-                <h4 className="story text-lg py-4 my-12">{pic.story}</h4>
-                <div className="artpiece-info py-8">
+                <div className="story-container pb-12 w-3/4">
+                <h4 className="story text-lg italic font-bold pb-4">Once upon a time...</h4>
+                <p className="whitespace-pre">{pic.story}</p>
+                </div>
+                <div className="artpiece-info pt-16">
                   <p>
                     <strong>Dimensions:</strong>
                     {pic.dims}
