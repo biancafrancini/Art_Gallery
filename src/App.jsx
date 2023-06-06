@@ -153,33 +153,34 @@ export const App = () => {
           animate={{ opacity: 1 }}
         >
           <div className="modal-content text-black">
-          <h2 className="text-4xl pt-16 text-center font-bold">{pic.title}</h2>
-            <div className="modal-grid grid grid-cols-2 items-center flex">
-              <div>
+         
+            <div className="modal-grid grid grid-cols-2 h-full items-center">
+              <div className="h-full">
                 <img
-                  className="picture-modal p-8 mt-24"
+                  className="picture-modal h-full rounded-s-2xl"
                   src={pic.image}
                   alt="modal picture"
                 />
               </div>
-              <div>
+              <div className="pl-8 h-full">
+              <h2 className="text-5xl py-10 font-bold">{pic.title}</h2>
                 <div className="story-container pb-12 w-3/4">
-                <h4 className="story text-lg italic font-bold pb-4">Once upon a time...</h4>
+                <h4 className="story text-lg italic font-bold mt-6 py-2">Once upon a time...</h4>
                 <p className="whitespace-pre">{pic.story}</p>
                 </div>
-                <div className="artpiece-info pt-16">
+                <div className="artpiece-info pt-12">
                   <p>
-                    <strong>Dimensions:</strong>
+                    <strong>Dimensions: </strong>
                     {pic.dims}
                   </p>
                   <p>
-                    <strong>Price:</strong>
-                    {pic.price}
+                    <strong>Price: </strong>
+                    £ {pic.price} 
                   </p>
                 </div>
               </div>
             </div>
-            <button className="close-button" onClick={handleModalClose}>
+            <button className="close-button text-white" onClick={handleModalClose}>
               Close
             </button>
           </div>

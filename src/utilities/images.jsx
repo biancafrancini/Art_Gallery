@@ -26,21 +26,42 @@ immortalized her as a beautiful new constellation. `,
   {
     image: image2,
     title: "Medusa",
-    story: "bla bla bla",
+    story: 
+    `In a land shrouded in darkness, 
+there lived a cursed maiden named Medusa. 
+Her hair, a writhing mass of venomous serpents, 
+struck fear into the hearts of all who dared to look upon her. 
+One fateful day, a wandering minstrel ventured into her lair, 
+seeking to soothe her tormented soul. 
+As he strummed his lute, a haunting melody filled the air, 
+and the serpents in Medusa's hair began to sway,
+entranced by the music... `,
     dims: "20 x 20 cm",
     price: 50,
   },
   {
     image: image3,
     title: "Donkey",
-    story: "bla bla bla",
+    story: 
+    `In a far-off realm, a donkey so bright,
+With wings of color, a magical sight.
+But oh, so tiny, barely reaching the ground,
+Sparkling through skies, enchantment unbound.
+Yet one day, vanished, a mystery untold,
+Leaving whispers and legends, secrets unfold.
+No one knows where, or how it all ends,
+The colorful donkey, a tale that suspends.`,
     dims: "20 x 20 cm",
     price: 50,
   },
   {
     image: image4,
     title: "Panda",
-    story: "bla bla bla",
+    story: 
+    `A panda astride a motorbike roars,
+Through bamboo forests, it soars.
+Black and white streak, nature's delight,
+Riding free, into the moonlit night.`,
     dims: "20 x 20 cm",
     price: 50,
   },
