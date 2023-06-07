@@ -6,8 +6,6 @@ import image5 from "../assets/fair.jpg";
 import image6 from "../assets/cirqueDuElephant.jpg";
 import image7 from "../assets/stairs.jpg";
 
-//export default [image1, image2, image3, image4, image5, image6, image7];
-
 export const images = [
   {
     image: image1,
@@ -68,21 +66,45 @@ Riding free, into the moonlit night.`,
   {
     image: image5,
     title: "Fair",
-    story: "bla bla bla",
+    story: 
+    `In a small village filled with joy,
+A fair bloomed with colors that could never annoy.
+Amidst ancient ruins, a spectacle so rare,
+A star shaped like a squirrel, hung high in the air.
+Its light shone brightly, casting a magical hue,
+Captivating hearts, the old and the new.
+Whispers spread, as villagers wondered with awe,
+What secrets it held, what wonders it saw.`,
     dims: "20 x 20 cm",
     price: 50,
   },
   {
     image: image6,
-    title: "Cirque du Elephant",
-    story: "bla bla bla",
+    title: "Cirque des éléphants",
+    story: 
+    `In a vibrant French cirque, where lights danced and glowed,
+Lived a family of wondrous creatures, with secrets they bestowed.
+Half elephant, half possum, their heritage was unique,
+For generations they performed, bringing joy to the mystique.
+Their dazzling show, a kaleidoscope of hues,
+As colors swirled around them, igniting magical views.
+In this cirque of dreams, where joy and mystery unite,
+The half-elephant, half-possum legacy glowed bright.`,
     dims: "20 x 20 cm",
     price: 50,
   },
   {
     image: image7,
     title: "Stairs",
-    story: "bla bla bla",
+    story: 
+    `In a realm where time bends and dreams unfurl,
+There stood black stairs, suspended in a swirl.
+They reached to nowhere, their path unknown,
+An infinite loop, in a white space they've grown.
+Fixed in stillness, forever they remain,
+Yet whispers spoke of possibilities untamed.
+One day, the black stairs may stir and fly,
+Transforming destiny, reaching beyond the sky.`,
     dims: "20 x 20 cm",
     price: 50,
   },

@@ -33,10 +33,9 @@ export const App = () => {
   const handleModalClose = () => {
     setModalOpen(false);
   };
-  useEffect(() => {
-    //console.log(carousel.current.scrollWidth, carousel.current.offsetWidth);
-    setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
-  }, []);
+  // useEffect(() => {
+  //   setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
+  // }, []);
 
   return (
     <div className="App relative">
@@ -118,6 +117,7 @@ export const App = () => {
       <motion.div
         className="carousel mt-4"
         ref={carousel}
+        whileHover="cursor"
         initial={{ opacity: 0 }}
         animate={{
           opacity: 1,
@@ -126,8 +126,6 @@ export const App = () => {
         transition={{ duration: 2.5, delay: 3.5 }}
       >
         <motion.div
-          drag="x"
-          dragConstraints={{ right: 0, left: -width }}
           className="inner-carousel"
         >
           {images.map((image, index) => {
