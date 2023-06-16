@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Background } from "./components/Background";
-
+import {LuMailQuestion} from "react-icons/lu"
 import { images } from "./utilities/images";
 import RoboArtist from "./assets/RoboArtist.jpeg";
 
@@ -166,15 +166,17 @@ export const App = () => {
                 <h4 className="story text-lg italic font-bold mt-6 py-2">Once upon a time...</h4>
                 <p className="whitespace-pre">{pic.story}</p>
                 </div>
-                <div className="artpiece-info pt-12">
+                <div className="artpiece-info py-12">
                   <p>
                     <strong>Dimensions: </strong>
                     {pic.dims}
                   </p>
-                  <p>
-                    <strong>Price: </strong>
-                    £ {pic.price} 
-                  </p>
+                <div className="py-10 w-full font-bold flex flex-cols items-center">
+                 <p className="more-info-btn pr-2 justify-right">Get more info</p> 
+                 <div className="rounded-full border-2 border-red-500 bg-red-200 h-8 w-8 flex items-center justify-center hover:bg-white">
+                  <LuMailQuestion />
+                  </div>
+                </div>
                 </div>
               </div>
             </div>
