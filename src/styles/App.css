@@ -79,3 +79,10 @@
   right: 20px;
 }
 
+@media (max-width: 900px) {
+  .item {
+    min-height: 15rem;
+    min-width: 15rem;
+    padding: 20px;
+  }
+}

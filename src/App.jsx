@@ -6,6 +6,8 @@ import { images } from "./utilities/images";
 import RoboArtist from "./assets/RoboArtist.jpeg";
 
 import "./styles/App.css";
+import { useWindowSize } from "./utilities/useWindowSize";
+import { ResponsiveApp } from "./components/ResponsiveApp";
 
 export const App = () => {
   const [width, setWidth] = useState(0);
@@ -18,6 +20,8 @@ export const App = () => {
     dims: "",
     price: "",
   });
+
+  const sizeScreen = useWindowSize();
 
   const handleImageClick = (imageViewed) => {
     setModalOpen(true);
@@ -47,8 +51,8 @@ export const App = () => {
           alt="Faike Art mascotte"
         />
       </nav>
-      <div className="container-h1 mx-auto text-center py-24 mb-12 min-w-screen">
-        <div className="title text-white pt-4 flex justify-center min-h-screen">
+      {sizeScreen.width > 1000 ? <><div className="container-h1 mx-auto text-center py-24 mb-12 min-w-screen">
+      <div className="title text-white pt-4 flex justify-center min-h-screen">
           <motion.p
             initial={{ opacity: 1 }}
             animate={{
@@ -114,7 +118,7 @@ export const App = () => {
           </motion.p>
         </div>
       </div>
-      <motion.div
+     <motion.div
         className="carousel mt-4"
         ref={carousel}
         whileHover="cursor"
@@ -142,7 +146,7 @@ export const App = () => {
             );
           })}
         </motion.div>
-      </motion.div>
+      </motion.div> </> : <ResponsiveApp />}
 
       {isModalOpen && (
         <motion.div
