@@ -28,24 +28,24 @@ export const Modals = ({ piece, action }) => {
                 alt="modal picture"
               />
             </div>
-            <div className="md:pl-8 h-full">
+            <div className="md:pl-8 h-full ml-6">
               <h2 className="md:text-5xl text-md md:py-10 py-2 font-bold">{piece.title}</h2>
               <div className="story-container md:pb-12 w-3/4">
-                <h4 className="story md:text-lg text-sm italic font-bold md:mt-6 md:py-2">
+                <h4 className="story md:text-lg text-sm italic font-bold md:mt-6 md:py-2 pb-2">
                   Once upon a time...
                 </h4>
-                <p className="md:whitespace-pre text-xs md:text-lg">{piece.story}</p>
+                <p className="md:whitespace-pre text-xs md:text-lg ">{piece.story}</p>
               </div>
-              <div className="artpiece-info md:py-12">
+              <div className="artpiece-info md:py-12 pt-2 md:text-lg text-xs">
                 <p>
                   <strong>Dimensions: </strong>
                   {piece.dims}
                 </p>
-                <div className="md:py-10 w-full font-bold flex flex-cols items-center">
+                <div className="md:py-10 py-2 w-full font-bold flex flex-cols items-center sm:text-sm">
                   <p className="more-info-btn pr-2 justify-right">
                     Get more info
                   </p>
-                  <div className="rounded-full border-2 border-red-500 bg-red-200 h-8 w-8 flex items-center justify-center hover:bg-white">
+                  <div className="rounded-full md:border-2 border border-red-500 bg-red-200 md:h-8 md:w-8 h-6 w-6 flex items-center justify-center hover:bg-white">
                     <LuMailQuestion />
                   </div>
                 </div>
