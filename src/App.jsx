@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import { Background } from "./components/Background";
-import {LuMailQuestion} from "react-icons/lu"
 import { images } from "./utilities/images";
 import RoboArtist from "./assets/RoboArtist.jpeg";
 
 import "./styles/App.css";
 import { useWindowSize } from "./utilities/useWindowSize";
 import { ResponsiveApp } from "./components/ResponsiveApp";
+import { Modals } from "./components/Modals";
 
 export const App = () => {
   const [width, setWidth] = useState(0);
@@ -148,48 +148,7 @@ export const App = () => {
         </motion.div>
       </motion.div> </> : <ResponsiveApp />}
 
-      {isModalOpen && (
-        <motion.div
-          className="modal-background"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-        >
-          <div className="modal-content text-black">
-         
-            <div className="modal-grid grid grid-cols-2 h-full items-center">
-              <div className="h-full">
-                <img
-                  className="picture-modal h-full rounded-s-2xl"
-                  src={pic.image}
-                  alt="modal picture"
-                />
-              </div>
-              <div className="pl-8 h-full">
-              <h2 className="text-5xl py-10 font-bold">{pic.title}</h2>
-                <div className="story-container pb-12 w-3/4">
-                <h4 className="story text-lg italic font-bold mt-6 py-2">Once upon a time...</h4>
-                <p className="whitespace-pre">{pic.story}</p>
-                </div>
-                <div className="artpiece-info py-12">
-                  <p>
-                    <strong>Dimensions: </strong>
-                    {pic.dims}
-                  </p>
-                <div className="py-10 w-full font-bold flex flex-cols items-center">
-                 <p className="more-info-btn pr-2 justify-right">Get more info</p> 
-                 <div className="rounded-full border-2 border-red-500 bg-red-200 h-8 w-8 flex items-center justify-center hover:bg-white">
-                  <LuMailQuestion />
-                  </div>
-                </div>
-                </div>
-              </div>
-            </div>
-            <button className="close-button text-white" onClick={handleModalClose}>
-              Close
-            </button>
-          </div>
-        </motion.div>
-      )}
+   {isModalOpen && <Modals piece={pic} action={handleModalClose} />}
     </div>
   );
 };

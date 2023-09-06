@@ -12,12 +12,12 @@ export const images = [
     title: "Zeus",
     story:
       `In a land where gods and mortals lived, 
-Zeus, disguised as a traveler, met a kind old woman named Agatha. 
+Zeus, met a kind old woman named Agatha. 
 She offered him shelter and food, unaware of his true identity. 
 Touched by her kindness, Zeus granted her a wish. 
 Agatha wished to visit the heavens and see the stars up close. 
-Zeus took her to the sky, and, moved by her joy, 
-immortalized her as a beautiful new constellation. `,
+Zeus took her to the sky, and immortalized her 
+as a beautiful new constellation. `,
     dims: "20 x 20 cm",
     price: 50,
   },

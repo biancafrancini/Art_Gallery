@@ -1,9 +1,11 @@
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import { images } from "../utilities/images";
+import { Modals } from "./Modals";
 
 export const ResponsiveApp = () => {
     const carousel = useRef();
+    const [isModalOpen, setModalOpen] = useState(false);
     const [pic, setPic] = useState({
         image: "",
         title: "",
@@ -11,6 +13,21 @@ export const ResponsiveApp = () => {
         dims: "",
         price: "",
       });
+
+      const handleImageClick = (imageViewed) => {
+        setModalOpen(true);
+        setPic({
+          image: imageViewed.image,
+          title: imageViewed.title,
+          story: imageViewed.story,
+          dims: imageViewed.dims,
+          price: imageViewed.price,
+        });
+      };
+    
+      const handleModalClose = () => {
+        setModalOpen(false);
+      };
 
   return (
     <div>
@@ -99,7 +116,7 @@ export const ResponsiveApp = () => {
                   key={index}
                   whileTap={{ scale: 1.9 }}
                   transition={{ duration: 2 }}
-                  //onClick={() => handleImageClick(image)}
+                  onClick={() => handleImageClick(image)}
                 >
                   <img src={image.image} alt="" />
                 </motion.div>
@@ -107,6 +124,8 @@ export const ResponsiveApp = () => {
             })}
           </motion.div>
         </motion.div>
+
+        {isModalOpen && <Modals piece={pic} action={handleModalClose} />}
     </div>
   );
 };
