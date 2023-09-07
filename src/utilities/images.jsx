@@ -18,23 +18,19 @@ Touched by her kindness, Zeus granted her a wish.
 Agatha wished to visit the heavens and see the stars up close. 
 Zeus took her to the sky, and immortalized her 
 as a beautiful new constellation. `,
-    dims: "20 x 20 cm",
+    dims: "20x20 cm",
     price: 50,
   },
   {
     image: image2,
     title: "Medusa",
     story: 
-    `In a land shrouded in darkness, 
-there lived a cursed maiden named Medusa. 
-Her hair, a writhing mass of venomous serpents, 
-struck fear into the hearts of all who dared to look upon her. 
-One fateful day, a wandering minstrel ventured into her lair, 
-seeking to soothe her tormented soul. 
-As he strummed his lute, a haunting melody filled the air, 
-and the serpents in Medusa's hair began to sway,
-entranced by the music... `,
-    dims: "20 x 20 cm",
+      `In a realm of eternal night, Medusa, 
+cursed with snake-infested locks, instilled terror in all who saw her. 
+One day, a minstrel ventured in, strumming a melody so haunting 
+it mesmerized even her serpents. As the final note lingered, 
+a secret chamber in her lair creaked open...`,
+    dims: "20x20 cm",
     price: 50,
   },
   {
@@ -49,7 +45,7 @@ Yet one day, vanished, a mystery untold,
 Leaving whispers and legends, secrets unfold.
 No one knows where, or how it all ends,
 The colorful donkey, a tale that suspends.`,
-    dims: "20 x 20 cm",
+    dims: "20x20 cm",
     price: 50,
   },
   {
@@ -60,7 +56,7 @@ The colorful donkey, a tale that suspends.`,
 Through bamboo forests, it soars.
 Black and white streak, nature's delight,
 Riding free, into the moonlit night.`,
-    dims: "20 x 20 cm",
+    dims: "20x20 cm",
     price: 50,
   },
   {
@@ -75,7 +71,7 @@ Its light shone brightly, casting a magical hue,
 Captivating hearts, the old and the new.
 Whispers spread, as villagers wondered with awe,
 What secrets it held, what wonders it saw.`,
-    dims: "20 x 20 cm",
+    dims: "20x20 cm",
     price: 50,
   },
   {
@@ -90,7 +86,7 @@ Their dazzling show, a kaleidoscope of hues,
 As colors swirled around them, igniting magical views.
 In this cirque of dreams, where joy and mystery unite,
 The half-elephant, half-possum legacy glowed bright.`,
-    dims: "20 x 20 cm",
+    dims: "20x20 cm",
     price: 50,
   },
   {
@@ -105,7 +101,7 @@ Fixed in stillness, forever they remain,
 Yet whispers spoke of possibilities untamed.
 One day, the black stairs may stir and fly,
 Transforming destiny, reaching beyond the sky.`,
-    dims: "20 x 20 cm",
+    dims: "20x20 cm",
     price: 50,
   },
 ];

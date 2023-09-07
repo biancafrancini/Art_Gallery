@@ -36,13 +36,13 @@ export const Modals = ({ piece, action }) => {
                 </h4>
                 <p className="md:whitespace-pre text-xs md:text-lg ">{piece.story}</p>
               </div>
-              <div className="artpiece-info md:py-12 pt-2 md:text-lg text-xs">
-                <p>
+              <div className="artpiece-info grid md:grid-cols-1 grid-cols-2 items-center md:py-12 py-2 md:text-lg text-xs">
+                <div>
                   <strong>Dimensions: </strong>
                   {piece.dims}
-                </p>
-                <div className="md:py-10 py-2 w-full font-bold flex flex-cols items-center sm:text-sm">
-                  <p className="more-info-btn pr-2 justify-right">
+                </div>
+                <div className="md:py-10 w-full font-bold flex flex-cols items-center md:text-lg text-xs">
+                  <p className="more-info-btn px-2 justify-right">
                     Get more info
                   </p>
                   <div className="rounded-full md:border-2 border border-red-500 bg-red-200 md:h-8 md:w-8 h-6 w-6 flex items-center justify-center hover:bg-white">
