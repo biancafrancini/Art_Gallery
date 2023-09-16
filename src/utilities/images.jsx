@@ -5,6 +5,7 @@ import image4 from "../assets/Panda.jpg";
 import image5 from "../assets/fair.jpg";
 import image6 from "../assets/cirqueDuElephant.jpg";
 import image7 from "../assets/stairs.jpg";
+import image8 from "../assets/cityGray.jpeg";
 
 export const images = [
   {
@@ -101,6 +102,20 @@ Fixed in stillness, forever they remain,
 Yet whispers spoke of possibilities untamed.
 One day, the black stairs may stir and fly,
 Transforming destiny, reaching beyond the sky.`,
+    dims: "20x20 cm",
+    price: 50,
+  },
+  {
+    image: image8,
+    title: "Gray City",
+    story: 
+    `In a grey city shrouded in mist, 
+a wise Mayor unveiled magical mirrors to turn 
+darkness into light. Artists conjured vibrant murals, 
+awakening joy among the people. And so, 
+a single rainbow appeared, whispering to all: 
+"The gray era is almost over...
+let the dawn of color arise again."`,
     dims: "20x20 cm",
     price: 50,
   },
