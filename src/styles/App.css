@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
 
 .item {
-  min-height: 30rem;
+  height: 30rem;
   min-width: 30rem;
   padding: 40px;
 }
@@ -19,7 +19,7 @@
   /*background-color:rgb(148, 27, 27)*/
 }
 
-.carousel{
+.inner-carousel{
   cursor: grab;
   overflow: hidden;
   overflow-x: scroll;
@@ -27,7 +27,7 @@
   scroll-behavior: smooth;
 }
 
-.carousel::-webkit-scrollbar { 
+.inner-carousel::-webkit-scrollbar { 
   display: none;
 }
 
@@ -81,7 +81,7 @@
 
 @media (max-width: 900px) {
   .item {
-    min-height: 15rem;
+    height: 15rem;
     min-width: 15rem;
     padding: 20px;
   }

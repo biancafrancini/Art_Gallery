@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import { Background } from "./components/Background";
-import { images } from "./utilities/images";
+import { imgDreaming, imgMarbles, imgPlaces } from "./utilities/images";
 import RoboArtist from "./assets/RoboArtist.jpeg";
 
 import "./styles/App.css";
@@ -107,7 +107,7 @@ export const App = () => {
             initial={{ opacity: 0 }}
             animate={{
               opacity: 1,
-              y: "-160%",
+              y: "-200%",
               x: "-8%",
             }}
             transition={{ duration: 2.5, delay: 2 }}
@@ -119,20 +119,55 @@ export const App = () => {
         </div>
       </div>
      <motion.div
-        className="carousel mt-4"
+        className="carousel mt-2"
         ref={carousel}
         whileHover="cursor"
         initial={{ opacity: 0 }}
         animate={{
           opacity: 1,
-          y: "-80%",
+          y: "-33%",
         }}
         transition={{ duration: 2.5, delay: 3.5 }}
       >
         <motion.div
-          className="inner-carousel"
+          className="inner-carousel mt-12"
         >
-          {images.map((image, index) => {
+          {imgPlaces.map((image, index) => {
+            return (
+              <motion.div
+                className="item"
+                key={index}
+                whileTap={{ scale: 1.9 }}
+                transition={{ duration: 2 }}
+                onClick={() => handleImageClick(image)}
+              >
+                <img src={image.image} alt="" />
+              </motion.div>
+            );
+          })};
+        </motion.div>
+        <motion.div
+          className="inner-carousel mt-24"
+        >
+          {imgDreaming.map((image, index) => {
+            return (
+              <motion.div
+                className="item"
+                key={index}
+                whileTap={{ scale: 1.9 }}
+                transition={{ duration: 2 }}
+                onClick={() => handleImageClick(image)}
+              >
+                <img src={image.image} alt="" />
+              </motion.div>
+            );
+          })}
+        </motion.div>
+
+        <motion.div
+          className="inner-carousel mt-24"
+        >
+          {imgMarbles.map((image, index) => {
             return (
               <motion.div
                 className="item"

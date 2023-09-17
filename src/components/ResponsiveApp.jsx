@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
-import { images } from "../utilities/images";
+import { imgDreaming, imgMarbles, imgPlaces } from "../utilities/images";
 import { Modals } from "./Modals";
 
 export const ResponsiveApp = () => {
@@ -104,25 +104,62 @@ export const ResponsiveApp = () => {
           initial={{ opacity: 0 }}
           animate={{
             opacity: 1,
-            y: "-110%",
+            y: "-25%",
           }}
           transition={{ duration: 2.5, delay: 3.5 }}
         >
-          <motion.div className="inner-carousel">
-            {images.map((image, index) => {
-              return (
-                <motion.div
-                  className="item"
-                  key={index}
-                  whileTap={{ scale: 1.9 }}
-                  transition={{ duration: 2 }}
-                  onClick={() => handleImageClick(image)}
-                >
-                  <img src={image.image} alt="" />
-                </motion.div>
-              );
-            })}
-          </motion.div>
+        <motion.div
+          className="inner-carousel"
+        >
+          {imgPlaces.map((image, index) => {
+            return (
+              <motion.div
+                className="item"
+                key={index}
+                whileTap={{ scale: 1.9 }}
+                transition={{ duration: 2 }}
+                onClick={() => handleImageClick(image)}
+              >
+                <img src={image.image} alt="" />
+              </motion.div>
+            );
+          })};
+        </motion.div>
+        <motion.div
+          className="inner-carousel mt-12"
+        >
+          {imgDreaming.map((image, index) => {
+            return (
+              <motion.div
+                className="item"
+                key={index}
+                whileTap={{ scale: 1.9 }}
+                transition={{ duration: 2 }}
+                onClick={() => handleImageClick(image)}
+              >
+                <img src={image.image} alt="" />
+              </motion.div>
+            );
+          })}
+        </motion.div>
+
+        <motion.div
+          className="inner-carousel mt-12"
+        >
+          {imgMarbles.map((image, index) => {
+            return (
+              <motion.div
+                className="item"
+                key={index}
+                whileTap={{ scale: 1.9 }}
+                transition={{ duration: 2 }}
+                onClick={() => handleImageClick(image)}
+              >
+                <img src={image.image} alt="" />
+              </motion.div>
+            );
+          })}
+        </motion.div>
         </motion.div>
 
         {isModalOpen && <Modals piece={pic} action={handleModalClose} />}
