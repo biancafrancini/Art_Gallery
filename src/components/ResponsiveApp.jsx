@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
-import { imgDreaming, imgMarbles, imgPlaces } from "../utilities/images";
+import { imgDreaming, imgFutureHistory, imgHuman, imgMarbles, imgPlaces } from "../utilities/images";
 import { Modals } from "./Modals";
 
 export const ResponsiveApp = () => {
@@ -104,7 +104,7 @@ export const ResponsiveApp = () => {
           initial={{ opacity: 0 }}
           animate={{
             opacity: 1,
-            y: "-25%",
+            y: "-15%",
           }}
           transition={{ duration: 2.5, delay: 3.5 }}
         >
@@ -147,6 +147,42 @@ export const ResponsiveApp = () => {
           className="inner-carousel mt-12"
         >
           {imgMarbles.map((image, index) => {
+            return (
+              <motion.div
+                className="item"
+                key={index}
+                whileTap={{ scale: 1.9 }}
+                transition={{ duration: 2 }}
+                onClick={() => handleImageClick(image)}
+              >
+                <img src={image.image} alt="" />
+              </motion.div>
+            );
+          })}
+        </motion.div>
+
+        <motion.div
+          className="inner-carousel mt-24"
+        >
+          {imgFutureHistory.map((image, index) => {
+            return (
+              <motion.div
+                className="item"
+                key={index}
+                whileTap={{ scale: 1.9 }}
+                transition={{ duration: 2 }}
+                onClick={() => handleImageClick(image)}
+              >
+                <img src={image.image} alt="" />
+              </motion.div>
+            );
+          })}
+        </motion.div>
+
+        <motion.div
+          className="inner-carousel mt-12"
+        >
+          {imgHuman.map((image, index) => {
             return (
               <motion.div
                 className="item"

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import { Background } from "./components/Background";
-import { imgDreaming, imgMarbles, imgPlaces } from "./utilities/images";
+import { imgDreaming, imgFutureHistory, imgHuman, imgMarbles, imgPlaces } from "./utilities/images";
 import RoboArtist from "./assets/RoboArtist.jpeg";
 
 import "./styles/App.css";
@@ -125,7 +125,7 @@ export const App = () => {
         initial={{ opacity: 0 }}
         animate={{
           opacity: 1,
-          y: "-33%",
+          y: "-20%",
         }}
         transition={{ duration: 2.5, delay: 3.5 }}
       >
@@ -168,6 +168,42 @@ export const App = () => {
           className="inner-carousel mt-24"
         >
           {imgMarbles.map((image, index) => {
+            return (
+              <motion.div
+                className="item"
+                key={index}
+                whileTap={{ scale: 1.9 }}
+                transition={{ duration: 2 }}
+                onClick={() => handleImageClick(image)}
+              >
+                <img src={image.image} alt="" />
+              </motion.div>
+            );
+          })}
+        </motion.div>
+
+        <motion.div
+          className="inner-carousel mt-24"
+        >
+          {imgFutureHistory.map((image, index) => {
+            return (
+              <motion.div
+                className="item"
+                key={index}
+                whileTap={{ scale: 1.9 }}
+                transition={{ duration: 2 }}
+                onClick={() => handleImageClick(image)}
+              >
+                <img src={image.image} alt="" />
+              </motion.div>
+            );
+          })}
+        </motion.div>
+
+        <motion.div
+          className="inner-carousel mt-24"
+        >
+          {imgHuman.map((image, index) => {
             return (
               <motion.div
                 className="item"

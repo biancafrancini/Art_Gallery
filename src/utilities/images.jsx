@@ -15,6 +15,12 @@ import image14 from "../assets/all_about_dreaming/stairs.jpg";
 import image15 from "../assets/marbles_figures/zeus.jpg";
 import image16 from "../assets/marbles_figures/medusa.jpg";
 import image17 from "../assets/marbles_figures/sleepingBeauty.jpeg";
+import image18 from "../assets/human_figures/phil.jpeg";
+import image19 from "../assets/human_figures/wrinklyMan.jpeg";
+import image20 from "../assets/future_history/londonTurner.jpeg";
+import image21 from "../assets/future_history/pencilTurner.jpeg";
+import image22 from "../assets/future_history/boatTurner.jpeg";
+import image23 from "../assets/future_history/astractArt.jpeg";
 
 export const imgPlaces = [
   {
@@ -251,3 +257,97 @@ awaited her next... `,
     price: 50,
   },
 ];
+
+export const imgHuman = [
+  {
+    image: image18,
+    title: "Be wise as Phil",
+    story:
+      `In a world woven of whimsy, 
+Phil the Philosopher gazed at the ever-changing 
+sky of ideas, where colourful clouds floated in 
+geometric shapes. "Ah," he mused, sharing his wisdom, 
+"always remember to harmonise your hexagons with 
+lavender clouds for clarity.” To those who listened, 
+his words were as puzzling as a tesseract dancing 
+with a rainbow… a story forever unfolding.`,
+    dims: "20x20 cm",
+    price: 50,
+  },
+  {
+    image: image19,
+    title: "Wrinkly Man",
+    story:
+      `In a small town lived Edgar, an 
+ex-politician with wrinkles as deep as his 
+mistrust for the world. Each day, he would 
+look out his window, observing people with 
+his grumpy face. 'Ah, fools and jesters, 
+all of them..' he would say. But that window 
+was the mysterious frame through which Edgar kept 
+watching and judging the world that still went on, 
+not caring at all about his grumpy looks.`,
+    dims: "20x20 cm",
+    price: 50,
+  },
+
+]
+
+export const imgFutureHistory = [
+  {
+    image: image20,
+    title: "Time confusion",
+    story:
+      `In a painting where Turner's skies 
+met the modern London, red buses moved like 
+dreamy dragons. "A twist of time," sighed the 
+artist's ghost. The canvas remained an enigmatic 
+space where the old and the new forever mingled.`,
+    dims: "20x20 cm",
+    price: 50,
+  },
+  {
+    image: image21,
+    title: "The ever-silent canvas",
+    story:
+      `a young art historian named Leo noticed a 
+curious detail in a Turner painting that none 
+believed. Years later, the painting resurfaced, 
+its mystery deepened, and whispers filled the 
+art world. "Is it truly a Turner?" they wondered. 
+Yet the enigma danced in the brushstrokes, a riddle 
+known only to Leo and the ever-silent canvas`,
+    dims: "20x20 cm",
+    price: 50,
+  },
+  {
+    image: image22,
+    title: "Be wise as Phil",
+    story:
+      `In a world woven of whimsy, 
+Phil the Philosopher gazed at the ever-changing 
+sky of ideas, where colourful clouds floated in 
+geometric shapes. "Ah," he mused, sharing his wisdom, 
+"always remember to harmonise your hexagons with 
+lavender clouds for clarity.” To those who listened, 
+his words were as puzzling as a tesseract dancing 
+with a rainbow… a story forever unfolding.`,
+    dims: "20x20 cm",
+    price: 50,
+  },
+  {
+    image: image23,
+    title: "Be wise as Phil",
+    story:
+      `In a world woven of whimsy, 
+Phil the Philosopher gazed at the ever-changing 
+sky of ideas, where colourful clouds floated in 
+geometric shapes. "Ah," he mused, sharing his wisdom, 
+"always remember to harmonise your hexagons with 
+lavender clouds for clarity.” To those who listened, 
+his words were as puzzling as a tesseract dancing 
+with a rainbow… a story forever unfolding.`,
+    dims: "20x20 cm",
+    price: 50,
+  },
+]
