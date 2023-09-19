@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import { Background } from "./components/Background";
 import { imgDreaming, imgFutureHistory, imgHuman, imgMarbles, imgPlaces } from "./utilities/images";
-import RoboArtist from "./assets/RoboArtist.jpeg";
+import RoboArtist from "./assets/roboArtist.jpeg";
 
 import "./styles/App.css";
 import { useWindowSize } from "./utilities/useWindowSize";
