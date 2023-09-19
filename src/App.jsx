@@ -125,7 +125,7 @@ export const App = () => {
         initial={{ opacity: 0 }}
         animate={{
           opacity: 1,
-          y: "-20%",
+          y: "-18%",
         }}
         transition={{ duration: 2.5, delay: 3.5 }}
       >

@@ -132,14 +132,13 @@ What secrets it held, what wonders it saw.`,
     image: image9,
     title: "Cirque des éléphants",
     story: 
-    `In a vibrant French cirque, where lights danced and glowed,
-Lived a family of wondrous creatures, with secrets they bestowed.
-Half elephant, half possum, their heritage was unique,
-For generations they performed, bringing joy to the mystique.
-Their dazzling show, a kaleidoscope of hues,
-As colors swirled around them, igniting magical views.
-In this cirque of dreams, where joy and mystery unite,
-The half-elephant, half-possum legacy glowed bright.`,
+    `In a vibrant French cirque, where lights danced 
+and glowed, lived a family of wondrous creatures.
+Half elephant, half possum, their heritage was unique. 
+For generations they performed, bringing joy to the mystique. 
+Their dazzling show, a kaleidoscope of hues. In this cirque 
+of dreams, where joy and mystery unite, the creatures legacy 
+glowed bright.`,
     dims: "20x20 cm",
     price: 50,
   },
@@ -150,7 +149,7 @@ The half-elephant, half-possum legacy glowed bright.`,
     `A panda astride a motorbike roars,
 Through bamboo forests, it soars.
 Black and white streak, nature's delight,
-Riding free, into the moonlit night.`,
+riding free, into the moonlit night.`,
     dims: "20x20 cm",
     price: 50,
   },
@@ -161,11 +160,11 @@ Riding free, into the moonlit night.`,
     `In a far-off realm, a donkey so bright,
 With wings of color, a magical sight.
 But oh, so tiny, barely reaching the ground,
-Sparkling through skies, enchantment unbound.
+sparkling through skies, enchantment unbound.
 Yet one day, vanished, a mystery untold,
-Leaving whispers and legends, secrets unfold.
+leaving whispers and legends, secrets unfold.
 No one knows where, or how it all ends,
-The colorful donkey, a tale that suspends.`,
+the colorful donkey, a tale that suspends.`,
     dims: "20x20 cm",
     price: 50,
   },
@@ -179,7 +178,8 @@ One sunny afternoon, a frazzled squirrel raced in,
 claiming the sky was falling. Patient Tehra picked up 
 a book, and said, "Why not read 'Sky is Up: A Guide 
 to Reality,' my dear friend?". They both laughed, 
-turning her forest haven into the most delightful book club!`,
+turning her forest haven into the most delightful 
+book club!`,
     dims: "20x20 cm",
     price: 50,
   },
@@ -203,13 +203,12 @@ a kaleidoscope of shape and sound.`,
     title: "Stairs",
     story: 
     `In a realm where time bends and dreams unfurl,
-There stood black stairs, suspended in a swirl.
+there stood black stairs, suspended in a swirl.
 They reached to nowhere, their path unknown,
-An infinite loop, in a white space they've grown.
-Fixed in stillness, forever they remain,
-Yet whispers spoke of possibilities untamed.
+an infinite loop, in a white space they've grown.
+Fixed in stillness, forever they remain.
 One day, the black stairs may stir and fly,
-Transforming destiny, reaching beyond the sky.`,
+transforming destiny, reaching beyond the sky...`,
     dims: "20x20 cm",
     price: 50,
   },
@@ -222,11 +221,12 @@ export const imgMarbles = [
     story:
       `In a land where gods and mortals lived, 
 Zeus, met a kind old woman named Agatha. 
-She offered him shelter and food, unaware of his true identity. 
-Touched by her kindness, Zeus granted her a wish. 
-Agatha wished to visit the heavens and see the stars up close. 
-Zeus took her to the sky, and immortalized her 
-as a beautiful new constellation. `,
+She offered him shelter and food, unaware of 
+his true identity. Touched by her kindness, 
+Zeus granted her a wish. Agatha wished to visit the 
+heavens and see the stars up close. Zeus took her to 
+the sky, and immortalized her as a beautiful 
+new constellation. `,
     dims: "20x20 cm",
     price: 50,
   },
@@ -235,10 +235,11 @@ as a beautiful new constellation. `,
     title: "Medusa",
     story: 
       `In a realm of eternal night, Medusa, 
-cursed with snake-infested locks, instilled terror in all who saw her. 
-One day, a minstrel ventured in, strumming a melody so haunting 
-it mesmerized even her serpents. As the final note lingered, 
-a secret chamber in her lair creaked open...`,
+cursed with snake-infested locks, instilled terror 
+in all who saw her. One day, a minstrel ventured in, 
+strumming a melody so haunting it mesmerized even 
+her serpents. As the final note lingered, a secret 
+chamber in her lair creaked open...`,
     dims: "20x20 cm",
     price: 50,
   },
@@ -316,37 +317,35 @@ believed. Years later, the painting resurfaced,
 its mystery deepened, and whispers filled the 
 art world. "Is it truly a Turner?" they wondered. 
 Yet the enigma danced in the brushstrokes, a riddle 
-known only to Leo and the ever-silent canvas`,
+known only to Leo and the ever-silent canvas.`,
     dims: "20x20 cm",
     price: 50,
   },
   {
     image: image22,
-    title: "Be wise as Phil",
+    title: "A boat called Turner",
     story:
-      `In a world woven of whimsy, 
-Phil the Philosopher gazed at the ever-changing 
-sky of ideas, where colourful clouds floated in 
-geometric shapes. "Ah," he mused, sharing his wisdom, 
-"always remember to harmonise your hexagons with 
-lavender clouds for clarity.” To those who listened, 
-his words were as puzzling as a tesseract dancing 
-with a rainbow… a story forever unfolding.`,
+      `In a kingdom where the sea mirrored the sky, 
+there was a boat named Turner, like the famous painter. 
+With every sail, Turner sketched waves into masterpieces 
+and storms into stories. The ocean whispered secrets only 
+he could capture. Yet, where Turner's journey began or 
+where it might end, remained the kingdom's greatest 
+mystery.`,
     dims: "20x20 cm",
     price: 50,
   },
   {
     image: image23,
-    title: "Be wise as Phil",
+    title: "Battle of Colours",
     story:
-      `In a world woven of whimsy, 
-Phil the Philosopher gazed at the ever-changing 
-sky of ideas, where colourful clouds floated in 
-geometric shapes. "Ah," he mused, sharing his wisdom, 
-"always remember to harmonise your hexagons with 
-lavender clouds for clarity.” To those who listened, 
-his words were as puzzling as a tesseract dancing 
-with a rainbow… a story forever unfolding.`,
+      `In an age long past, the colours of the world waged 
+a vibrant war, each hue seeking dominance. 
+Mountains of blue clashed with torrents of teal, and golden 
+gusts dueled ruby ripples. From this epic battle, a lone 
+artist captured their dance, creating a fresco that told of 
+the notorious Battle of Colours. To this day, it remains a 
+testament to beauty born from chaos.`,
     dims: "20x20 cm",
     price: 50,
   },
