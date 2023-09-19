@@ -41,9 +41,9 @@ export const Modals = ({ piece, action }) => {
                   <p className="more-info-btn pr-2 md:py-2 py-4">
                     Get more info
                   </p>
-                  <div className="rounded-full md:border-2 border border-red-500 bg-red-200 md:h-8 md:w-8 h-6 w-6 flex items-center justify-center hover:bg-white">
+                  <a href={`mailto:info.faikeart@gmail.com?subject=Request%20info%20about%20"${piece.title}"`} className="rounded-full md:border-2 border border-red-500 bg-red-200 md:h-8 md:w-8 h-6 w-6 flex items-center justify-center hover:bg-white">
                     <LuMailQuestion />
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
