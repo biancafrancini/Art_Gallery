@@ -83,7 +83,7 @@ export const ResponsiveApp = () => {
             initial={{ opacity: 0 }}
             animate={{
               opacity: 1,
-              y: "-260%",
+              y: "-280%",
               x: "-2%"
             }}
             transition={{ duration: 2.5, delay: 2 }}
@@ -103,8 +103,8 @@ export const ResponsiveApp = () => {
           whileHover="cursor"
           initial={{ opacity: 0 }}
           animate={{
-            opacity: 1,
-            y: "-15%",
+            opacity: 2,
+            y: "-20%",
           }}
           transition={{ duration: 2.5, delay: 3.5 }}
         >
