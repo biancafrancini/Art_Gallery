@@ -38,7 +38,7 @@ export const Modals = ({ piece, action }) => {
               </div>
               <div className="artpiece-info grid md:grid-cols-1 grid-cols-2 items-center md:py-12 py-2 md:text-lg text-xs">
                 <div className="md:py-10 w-full font-bold flex flex-cols items-center md:text-lg text-xs">
-                  <p className="more-info-btn pr-2 md:py-2 py-4">
+                  <p className="more-info-btn pr-2 py-2">
                     Get more info
                   </p>
                   <a href={`mailto:info.faikeart@gmail.com?subject=Request%20info%20about%20"${piece.title}"`} className="rounded-full md:border-2 border border-red-500 bg-red-200 md:h-8 md:w-8 h-6 w-6 flex items-center justify-center hover:bg-white">
