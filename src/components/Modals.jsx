@@ -23,7 +23,7 @@ export const Modals = ({ piece, action }) => {
           <div className="modal-grid grid md:grid-cols-2 grid-cols-1 md:h-full h-200 items-center">
             <div className="h-full">
               <img
-                className="picture-modal h-full md:rounded-s-2xl rounded-2xl"
+                className="picture-modal min-h-full md:rounded-s-2xl rounded-2xl"
                 src={piece.image}
                 alt="modal picture"
               />
