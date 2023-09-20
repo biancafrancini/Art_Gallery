@@ -5,7 +5,6 @@ An online art gallery dedicated to showcasing a collection of AI artworks and sh
 Built using:
 
 - React.js
-- Javascript.js
 - React tsParticles
 - Framer motion
 - Tailwind css
